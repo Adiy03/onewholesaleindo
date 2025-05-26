@@ -1082,3 +1082,10 @@ the website, in dark theme
     right: 3rem;
   }
 }
+
+.produk a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
