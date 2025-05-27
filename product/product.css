@@ -14,12 +14,13 @@ h2 {
   max-width: 1200px;
   display: flex;
   margin: auto;
-  height: 90vh;
+  height: 95vh;
   padding: 0 8rem;
   padding-top: 5.5rem;
   padding-bottom: 3rem;
   display: flex;
   flex-direction: row;
+  margin-bottom: 5vh;
 }
 
 .produk-page-detail .kiri,
@@ -53,7 +54,11 @@ h2 {
 }
 
 .produk-page-detail .kanan .bawah img {
-  max-width: 280px;
+  /* max-width: 280px; */
+  width: 12rem;
+  height: 12rem;
+  /* object-fit: cover; */
+  object-fit: contain;
 }
 
 
@@ -71,7 +76,7 @@ h2 {
   margin-right: 0.5rem;
 }
 
-.ph1{
+.ph1 {
   margin-bottom: 1rem;
 }
 
@@ -79,26 +84,28 @@ h2 {
   margin: 1rem 0;
 }
 
-.onewholesale{
+.onewholesale {
   color: teal;
   font-weight: 600;
 }
 
-@media screen and (max-width: 900px){
-  .produk-page-detail{
+@media screen and (max-width: 900px) {
+  .produk-page-detail {
     flex-direction: column;
     height: auto;
   }
+
   .produk-page-detail .kanan {
     padding-left: 0;
   }
-  .footer__copy{
+
+  .footer__copy {
     margin: 1rem 0;
   }
 }
 
-@media screen and (max-width: 700px){
-  .produk-page-detail{
+@media screen and (max-width: 700px) {
+  .produk-page-detail {
     padding: 0 2rem;
     padding-top: 2rem;
   }
