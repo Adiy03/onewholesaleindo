@@ -99,6 +99,11 @@ h2 {
     padding-left: 0;
   }
 
+  .produk-page-detail .kiri {
+    /* background-color: teal; */
+    padding-right: 0;
+  }
+
   .footer__copy {
     margin: 1rem 0;
   }
@@ -108,5 +113,6 @@ h2 {
   .produk-page-detail {
     padding: 0 2rem;
     padding-top: 2rem;
+    margin-bottom: 6rem;
   }
 }
