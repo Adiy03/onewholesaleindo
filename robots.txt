@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /
+
+# Sitemap untuk Google dan mesin pencari lainnya
+Sitemap: https://onewholesaleindo.com/sitemap.xml

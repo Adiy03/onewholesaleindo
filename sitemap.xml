@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://onewholesaleindo.com/</loc>
+    <priority>1.0</priority>
+    <lastmod>2025-06-09</lastmod>
+  </url>
+
+ <!-- nutmeg -->
+ <url>
+  <loc>https://onewholesaleindo.com/product/nutmeg/index.html</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" 
+    href="https://onewholesaleindo.com/product/nutmeg/index.html" />
+  <xhtml:link rel="alternate" hreflang="vi" 
+    href="https://onewholesaleindo.com/product/nutmeg/Nhục-đậu-khấu.html" />
+  <xhtml:link rel="alternate" hreflang="nl" 
+    href="https://onewholesaleindo.com/product/nutmeg/Noot-muskáat.html" />
+  <xhtml:link rel="alternate" hreflang="ar" 
+    href="https://onewholesaleindo.com/product/nutmeg/جوزة-الطيب.html" />
+  <xhtml:link rel="alternate" hreflang="zh" 
+    href="https://onewholesaleindo.com/product/nutmeg/肉豆蔻.html" />
+  <lastmod>2025-06-09</lastmod>
+  <priority>0.8</priority>
+ </url>
+
+ <!-- agarwood oud oil -->
+ <url>
+  <loc>https://onewholesaleindo.com/wholesale/agarwood-oud-oil/index-en.html</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" 
+    href="https://onewholesaleindo.com/wholesale/agarwood-oud-oil/index-en.html" />
+  <xhtml:link rel="alternate" hreflang="fr" 
+    href="https://onewholesaleindo.com/wholesale/agarwood-oud-oil/index-fr.html" />
+  <xhtml:link rel="alternate" hreflang="hi" 
+    href="https://onewholesaleindo.com/wholesale/agarwood-oud-oil/index-hi.html" />
+  <xhtml:link rel="alternate" hreflang="ja" 
+    href="https://onewholesaleindo.com/wholesale/agarwood-oud-oil/index-ja.html" />
+  <xhtml:link rel="alternate" hreflang="zh" 
+    href="https://onewholesaleindo.com/wholesale/agarwood-oud-oil/index-zh.html" />
+  <lastmod>2025-06-09</lastmod>
+  <priority>0.8</priority>
+ </url>
+
+ <!-- banana leaves tree -->
+ <url>
+  <loc>https://onewholesaleindo.com/wholesale/banana-leaves-tree/en.html</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" 
+    href="https://onewholesaleindo.com/wholesale/banana-leaves-tree/en.html" />
+  <xhtml:link rel="alternate" hreflang="ja" 
+    href="https://onewholesaleindo.com/wholesale/banana-leaves-tree/ja.html" />
+  <xhtml:link rel="alternate" hreflang="ko" 
+    href="https://onewholesaleindo.com/wholesale/banana-leaves-tree/ko.html" />
+  <xhtml:link rel="alternate" hreflang="th" 
+    href="https://onewholesaleindo.com/wholesale/banana-leaves-tree/th.html" />
+  <xhtml:link rel="alternate" hreflang="zh" 
+    href="https://onewholesaleindo.com/wholesale/banana-leaves-tree/zh.html" />
+  <lastmod>2025-06-09</lastmod>
+  <priority>0.8</priority>
+</url>
+
+
+
+</urlset>
