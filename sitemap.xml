@@ -7,7 +7,7 @@
   <url>
     <loc>https://onewholesaleindo.com/</loc>
     <priority>1.0</priority>
-    <lastmod>2025-06-09</lastmod>
+    <lastmod>2025-06-10</lastmod>
   </url>
 
  <!-- nutmeg -->
@@ -59,7 +59,14 @@
     href="https://onewholesaleindo.com/wholesale/banana-leaves-tree/zh.html" />
   <lastmod>2025-06-09</lastmod>
   <priority>0.8</priority>
-</url>
+ </url>
+
+ <!-- banana leaves tree -->
+ <url>
+  <loc>https://onewholesaleindo.com/wholesale/cocopeat-coir-pith/en.html</loc>
+  <lastmod>2025-06-10</lastmod>
+  <priority>0.8</priority>
+ </url>
 
 
 
