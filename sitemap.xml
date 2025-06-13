@@ -7,7 +7,7 @@
   <url>
     <loc>https://onewholesaleindo.com/</loc>
     <priority>1.0</priority>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-13</lastmod>
   </url>
 
  <!-- nutmeg -->
@@ -79,6 +79,13 @@
  <url>
   <loc>https://onewholesaleindo.com/pumice-stones-bulk-wholesale.html</loc>
   <lastmod>2025-06-12</lastmod>
+  <priority>0.8</priority>
+ </url>
+
+ <!-- sawdust & wood pellets -->
+ <url>
+  <loc>https://onewholesaleindo.com/sawdust-wood-pellets.html</loc>
+  <lastmod>2025-06-13</lastmod>
   <priority>0.8</priority>
  </url>
 
