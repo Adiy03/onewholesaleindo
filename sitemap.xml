@@ -7,7 +7,7 @@
   <url>
     <loc>https://onewholesaleindo.com/</loc>
     <priority>1.0</priority>
-    <lastmod>2025-06-14</lastmod>
+    <lastmod>2025-06-15</lastmod>
   </url>
 
  <!-- nutmeg -->
@@ -93,6 +93,13 @@
  <url>
   <loc>https://onewholesaleindo.com/wood-charcoal-briquettes.html</loc>
   <lastmod>2025-06-14</lastmod>
+  <priority>0.8</priority>
+ </url>
+
+ <!-- rice hulls husk ash -->
+ <url>
+  <loc>https://onewholesaleindo.com/bulk-rice-hulls-husk-ash.html</loc>
+  <lastmod>2025-06-15</lastmod>
   <priority>0.8</priority>
  </url>
 
