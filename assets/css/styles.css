@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  --header-height: 2.5rem;
   /*56px*/
 
   /*========== Colors ==========*/
@@ -190,7 +190,8 @@ the website, in dark theme
 /*=============== HEADER ===============*/
 .header {
   width: 100%;
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
+  background-color: var(--first-color-lighten);
   position: fixed;
   top: 0;
   left: 0;

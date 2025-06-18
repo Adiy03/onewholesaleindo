@@ -1,0 +1,73 @@
+/* html{
+  text-align: justify;
+} */
+
+html {
+  color: #333;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+main {
+  margin: 0 12.5rem;
+  color: #333;
+  padding-top: 7rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.satu {
+  display: flex;
+  flex-direction: row;
+}
+
+.satu .kiri,
+.satu .kanan {
+  flex: 1;
+}
+
+.satu .kiri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1rem;
+
+  /* background-color: yellow; */
+}
+
+.satu .kiri img {
+  height: 280px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+/* Responsif untuk tablet (lebar <= 1024px) */
+@media (max-width: 1024px) {
+  main {
+    margin: 0 5rem;
+  }
+}
+
+/* Responsif untuk mobile phone (lebar <= 768px) */
+@media (max-width: 768px) {
+  main {
+    margin: 0 2rem;
+    padding-top: 5rem;
+  }
+
+  .satu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Responsif untuk layar sangat kecil (lebar <= 480px) */
+@media (max-width: 480px) {
+  main {
+    margin: 0 1rem;
+    padding-top: 4rem;
+  }
+}
