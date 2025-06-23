@@ -18,7 +18,7 @@ main {
 }
 
 
-html{
+html {
   text-align: justify;
 }
 
@@ -26,11 +26,11 @@ html{
   color: #333;
 } */
 
-b{
+b {
   margin-bottom: 3rem;
 }
 
-h1{
+h1 {
   text-align: left;
   font-size: 1.5rem;
 }
@@ -59,7 +59,7 @@ main {
   padding-right: 11rem;
 } */
 
-.ulStyle{
+.ulStyle {
   list-style: disc;
   padding-left: 1.2rem;
 }
@@ -85,14 +85,14 @@ main {
   /* border-radius: 50%; */
 }
 
-.split{
+.split {
   display: flex;
   flex-direction: row;
   text-align: left;
 }
 
 .split .kiri,
-.split .kanan{
+.split .kanan {
   flex: 1;
 }
 
@@ -102,6 +102,14 @@ main {
     margin: 0 5rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 /* Responsif untuk mobile phone (lebar <= 768px) */
 @media (max-width: 768px) {
@@ -115,7 +123,7 @@ main {
     flex-direction: column;
   }
 
-  .satu .kanan{
+  .satu .kanan {
     margin-top: 3rem;
   }
 }
