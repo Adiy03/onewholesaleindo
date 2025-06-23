@@ -108,6 +108,10 @@ main {
     display: flex;
     flex-direction: column;
   }
+
+  main .layout .kanan {
+    margin-top: 3rem;
+  }
 }
 
 
