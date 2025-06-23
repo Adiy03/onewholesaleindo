@@ -1,0 +1,100 @@
+:root {
+    --header-height: 0;
+}
+
+.product-contaier {
+  /* background-color:  rgb(240, 239, 243); */
+  margin: 2rem 0;
+  width: 100%;
+  max-width: 600px;
+  height: 40vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: center; */
+  /* margin-top: 3rem; */
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+  /* margin-bottom: 5rem; */
+}
+
+.pcontainer {
+  /* width: ;
+  height: 520px; */
+  background: #fff;
+  /* border-radius: 15px; */
+  /* box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06); */
+  /* padding: 20px; */
+  overflow-y: scroll;
+}
+
+.pcontainer::-webkit-scrollbar{
+  display: none;
+}
+
+.pcontainer form {
+  width: 100%;
+  border: 1px solid teal;
+  padding: 2px;
+  padding: 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 12px; */
+  /* margin-bottom: 2rem; */
+  position: sticky;
+  top: 0; /* atau ganti sesuai kebutuhan misalnya 'top: 20px;' */
+  background: white; /* agar tidak transparan ketika sticky */
+  z-index: 2; /* pastikan elemen tidak tertutup elemen lain */
+}
+
+.pcontainer form input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  /* width: 100%; */
+  width: 250px;
+  padding: 4px 6px;
+}
+
+.pcontainer form i {
+  padding-left: 10px;
+}
+
+.produk {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.produk img {
+  width: 3rem;
+  height: 3rem;
+  /* object-fit: cover; */
+  object-fit: contain;
+}
+
+.produk h2 {
+  font-size: 1rem;
+  padding-left: 1rem;
+  font-weight: 100;
+  transition: .4s;
+}
+
+.produk:hover h1 {
+  color: teal;
+}
+
+.product-list{
+  padding: 20px 0;
+  padding-left: 10px;
+}
+
+.tengah{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  text-align: center;
+}

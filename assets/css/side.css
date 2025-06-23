@@ -1,0 +1,129 @@
+main {
+  padding: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout .kiri {
+  flex: 3;
+  padding-right: 2rem;
+  padding-left: 1rem;
+}
+
+.layout .kanan {
+  flex: 2;
+}
+
+
+html{
+  text-align: justify;
+}
+
+/* html {
+  color: #333;
+} */
+
+b{
+  margin-bottom: 3rem;
+}
+
+h1{
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+main {
+  margin: 0 2rem;
+  color: #333;
+  padding-top: 7rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.satu {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .dua{
+  padding-left: 3rem;
+  padding-right: 11rem;
+} */
+
+.ulStyle{
+  list-style: disc;
+  padding-left: 1.2rem;
+}
+
+.satu .kiri,
+.satu .kanan {
+  flex: 1;
+}
+
+.satu .kiri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1rem;
+
+  /* background-color: yellow; */
+}
+
+.satu .kiri img {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+  /* border-radius: 50%; */
+}
+
+.split{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.split .kiri,
+.split .kanan{
+  flex: 1;
+}
+
+/* Responsif untuk tablet (lebar <= 1024px) */
+@media (max-width: 1024px) {
+  main {
+    margin: 0 5rem;
+  }
+}
+
+/* Responsif untuk mobile phone (lebar <= 768px) */
+@media (max-width: 768px) {
+  main {
+    margin: 0 2rem;
+    padding-top: 5rem;
+  }
+
+  .satu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .satu .kanan{
+    margin-top: 3rem;
+  }
+}
+
+/* Responsif untuk layar sangat kecil (lebar <= 480px) */
+@media (max-width: 480px) {
+  main {
+    margin: 0 2rem;
+    padding-top: 4rem;
+  }
+}
