@@ -198,7 +198,7 @@ the website, in dark theme
   left: 0;
   z-index: var(--z-fixed);
   transition: .4s;
-  /*For animation dark mode*/
+  min-height: 2.5rem;
 }
 
 /*=============== NAV ===============*/
@@ -931,6 +931,11 @@ the website, in dark theme
   .footer__subscribe {
     width: 400px;
   }
+
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+    column-gap: 3rem;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -999,6 +1004,11 @@ the website, in dark theme
 
 /* For large devices */
 @media screen and (min-width: 992px) {
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+    column-gap: 3rem;
+  }
+
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -1173,6 +1183,11 @@ the website, in dark theme
   .whatsapp-float img {
     width: 28px;
     height: 28px;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+    column-gap: 3rem;
   }
 }
 
