@@ -394,7 +394,8 @@ the website, in dark theme
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 1rem 1.75rem;
+  /* padding: 1rem 1.75rem; */
+  padding: .6rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: .3s;
