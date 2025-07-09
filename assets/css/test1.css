@@ -1,5 +1,93 @@
-.test-contact{
-    background-color: #fff;
-    padding: 0 8rem;
-    border-bottom: 1px solid #333;
+#newHome {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.4rem;
+  background-image: url(https://onewholesaleindo.com/assets/img/tpriok.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  /* max-height: 90vh; */
+  padding-bottom: 5rem;
+  margin-bottom: 3rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+#newHome p {
+  width: 100%;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newHomeTitle {
+  margin-top: 1rem;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: 3px 3px 3px black;
+  padding-bottom: 1rem;
+}
+
+.newHomeLogo {
+  height: 10rem;
+  width: auto;
+  border-radius: 50%;
+}
+
+.newInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* TABLET VIEW (768px - 1024px) */
+@media (max-width: 1024px) {
+  .newHomeTitle {
+    font-size: 30px;
+  }
+
+  #newHome p {
+    font-size: 16px;
+  }
+
+  .newInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newHomeLogo {
+    height: 8rem;
+  }
+}
+
+/* MOBILE VIEW (below 768px) */
+@media (max-width: 768px) {
+  .newHomeTitle {
+    font-size: 24px;
+  }
+
+  #newHome p {
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+
+  .newInfo {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .newHomeLogo {
+    height: 6rem;
+  }
 }
