@@ -5,7 +5,7 @@ h1,h2{
 
 h3, h4{
   margin-bottom: .35rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .ulStyle{
@@ -14,4 +14,36 @@ h3, h4{
 
 .newHomeTitle{
   max-width: 600px;
+}
+
+li{
+  margin-bottom: .5rem;
+}
+
+.split2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* agar elemen tidak overflow di layar kecil */
+}
+
+.martop0{
+  margin-top: 0;
+}
+
+strong{
+  font-weight: 500;
+}
+
+/* Untuk tablet dan layar kecil (misal max-width: 768px) */
+@media (max-width: 768px) {
+  .split2 {
+    flex-direction: column;
+  }
+}
+
+/* Untuk mobile (misal max-width: 480px) */
+@media (max-width: 480px) {
+  .split2 {
+    flex-direction: column;
+  }
 }
