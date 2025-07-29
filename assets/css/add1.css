@@ -41,12 +41,20 @@ main {
   font-size: 16px;
   transition: .4s;
   line-height: 1.8;
+  letter-spacing: .5px;
 }
 
 /* Untuk tablet dan layar kecil (misal max-width: 768px) */
 @media (max-width: 768px) {
   .split2 {
     flex-direction: column;
+  }
+
+  main{
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: .5px;
+    text-align: left;
   }
 }
 
