@@ -13,8 +13,7 @@ main {
 
 .layout .kiri {
   flex: 3;
-  padding-right: 2rem;
-  padding-left: 1rem;
+  /* padding: 0 .5rem; */
 }
 
 .layout .kanan {
@@ -112,10 +111,6 @@ main {
     display: flex;
     flex-direction: column;
   }
-
-  main .layout .kanan {
-    margin-top: 3rem;
-  }
 }
 
 
@@ -129,10 +124,6 @@ main {
   .satu {
     display: flex;
     flex-direction: column-reverse;
-  }
-
-  .satu .kanan {
-    margin-top: 3rem;
   }
 }
 

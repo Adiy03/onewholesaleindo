@@ -34,7 +34,7 @@ li {
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 main {
@@ -54,7 +54,11 @@ main {
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: .5px;
-    text-align: left;
+    text-align: justify;
+  }
+
+  .kanan iframe{
+    height: 50vh;
   }
 }
 
