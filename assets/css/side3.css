@@ -18,6 +18,7 @@ main {
 
 .layout .kanan {
   flex: 2;
+  padding-left: 2rem;
 }
 
 
@@ -124,6 +125,11 @@ main {
   .satu {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .layout .kanan {
+    flex: 2;
+    padding-left: 0;
   }
 }
 
