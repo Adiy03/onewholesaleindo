@@ -187,7 +187,7 @@ the website, in dark theme
   display: grid;
 }
 
-.main {
+main {
   overflow: hidden;  
   /*For animation*/
   margin: 0 2rem;
@@ -195,7 +195,7 @@ the website, in dark theme
   padding-top: 5rem;
   text-align: justify;
   margin-bottom: 2rem;
-  font-size: 16px;
+  font-size: 14px;
   transition: .4s;
   line-height: 1.8;
   letter-spacing: .5px;
