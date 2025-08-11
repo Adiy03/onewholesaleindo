@@ -179,7 +179,7 @@ the website, in dark theme
   margin-right: var(--mb-1-5);
 }
 
-.martop3{
+.martop3 {
   margin-top: 3rem;
 }
 
@@ -231,8 +231,8 @@ the website, in dark theme
 }
 
 .nav__logo img {
-  width: 100%;
-  height: auto;
+  width: 50px;
+  height: 50px;
   max-width: 50px;
   border-radius: 50%;
 }
@@ -341,7 +341,7 @@ the website, in dark theme
   margin-bottom: var(--mb-1);
 }
 
-.home__title span{
+.home__title span {
   font-size: 1.5rem;
   margin-left: -.5rem;
 }
@@ -1009,7 +1009,7 @@ the website, in dark theme
 
 /* For large devices */
 @media screen and (min-width: 992px) {
-    
+
   .nav {
     height: calc(var(--header-height) + 1.5rem);
     column-gap: 3rem;
@@ -1253,7 +1253,7 @@ the website, in dark theme
   }
 }
 
-.teal{
+.teal {
   color: teal;
 }
 
@@ -1331,7 +1331,7 @@ main {
 
 .satu .kiri img {
   height: 200px;
-  width: auto;
+  width: 200px;
   object-fit: contain;
 }
 
@@ -1359,9 +1359,9 @@ main {
     flex-direction: column;
   }
 
-   iframe{
+  iframe {
     display: none;
-   }
+  }
 }
 
 
@@ -1377,11 +1377,11 @@ main {
     flex-direction: column-reverse;
   }
 
-  .layout .kanan{
+  .layout .kanan {
     padding-left: 0;
   }
 
-  iframe{
+  iframe {
     display: none;
   }
 }
@@ -1448,7 +1448,7 @@ main {
     flex-direction: column;
   }
 
-  main{
+  main {
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: .5px;
@@ -1456,7 +1456,7 @@ main {
     padding-bottom: 3rem;
   }
 
-  .kanan iframe{
+  .kanan iframe {
     height: 50vh;
   }
 }
@@ -1476,7 +1476,7 @@ img.putih {
 /* produk4css */
 
 :root {
-    --header-height: 0;
+  --header-height: 0;
 }
 
 .product-contaier {
@@ -1499,7 +1499,7 @@ img.putih {
   overflow-y: scroll;
 }
 
-.pcontainer::-webkit-scrollbar{
+.pcontainer::-webkit-scrollbar {
   display: none;
 }
 
@@ -1514,9 +1514,12 @@ img.putih {
   /* border-radius: 12px; */
   /* margin-bottom: 2rem; */
   position: sticky;
-  top: 0; /* atau ganti sesuai kebutuhan misalnya 'top: 20px;' */
-  background: white; /* agar tidak transparan ketika sticky */
-  z-index: 2; /* pastikan elemen tidak tertutup elemen lain */
+  top: 0;
+  /* atau ganti sesuai kebutuhan misalnya 'top: 20px;' */
+  background: white;
+  /* agar tidak transparan ketika sticky */
+  z-index: 2;
+  /* pastikan elemen tidak tertutup elemen lain */
 }
 
 .pcontainer form input {
@@ -1557,12 +1560,12 @@ img.putih {
   color: teal;
 }
 
-.product-list{
+.product-list {
   padding: 20px 0;
   padding-left: 10px;
 }
 
-.tengah{
+.tengah {
   display: flex;
   align-items: center;
   justify-content: center;
