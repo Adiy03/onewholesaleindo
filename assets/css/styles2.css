@@ -91,12 +91,12 @@ body {
 main {
   overflow: hidden;  
   /*For animation*/
-  margin: 0 2rem;
+  margin: 0 14rem;
   color: #333;
   padding-top: 5rem;
   text-align: justify;
   margin-bottom: 2rem;
-  font-size: 14px;
+  font-size: 1.125rem;
   transition: .4s;
   line-height: 1.8;
   letter-spacing: .5px;
@@ -1299,11 +1299,6 @@ the website, in dark theme
 .layout .kiri {
   flex: 3;
   padding-right: 1rem;
-}
-
-.layout .kanan {
-  flex: 2;
-  /* padding-left: 2rem; */
 }
 
 
