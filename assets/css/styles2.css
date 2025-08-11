@@ -88,6 +88,20 @@ body {
   /*For animation dark mode*/
 }
 
+main {
+  overflow: hidden;  
+  /*For animation*/
+  margin: 0 2rem;
+  color: #333;
+  padding-top: 5rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  transition: .4s;
+  line-height: 1.8;
+  letter-spacing: .5px;
+}
+
 button {
   cursor: pointer;
   border: none;
@@ -185,20 +199,6 @@ the website, in dark theme
 
 .grid {
   display: grid;
-}
-
-main {
-  overflow: hidden;  
-  /*For animation*/
-  margin: 0 2rem;
-  color: #333;
-  padding-top: 5rem;
-  text-align: justify;
-  margin-bottom: 2rem;
-  font-size: 14px;
-  transition: .4s;
-  line-height: 1.8;
-  letter-spacing: .5px;
 }
 
 /*=============== HEADER ===============*/
