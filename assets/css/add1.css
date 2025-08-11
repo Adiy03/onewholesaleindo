@@ -26,7 +26,6 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* agar elemen tidak overflow di layar kecil */
 }
 
 .martop0 {
