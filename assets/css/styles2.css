@@ -102,6 +102,28 @@ main {
   letter-spacing: .5px;
 }
 
+@media (max-width: 1024px) {
+  main {
+    margin: 0 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin: 0 2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    margin: 0 2rem;
+    padding-top: 4rem;
+  }
+}
+
+
 button {
   cursor: pointer;
   border: none;
@@ -1344,11 +1366,7 @@ h2 {
 }
 
 /* Responsif untuk tablet (lebar <= 1024px) */
-@media (max-width: 1024px) {
-  main {
-    margin: 0 5rem;
-  }
-}
+
 
 @media (max-width: 1000px) {
   .layout {
@@ -1364,10 +1382,6 @@ h2 {
 
 /* Responsif untuk mobile phone (lebar <= 768px) */
 @media (max-width: 768px) {
-  main {
-    margin: 0 2rem;
-    padding-top: 5rem;
-  }
 
   .satu {
     display: flex;
@@ -1382,15 +1396,6 @@ h2 {
     display: none;
   }
 }
-
-/* Responsif untuk layar sangat kecil (lebar <= 480px) */
-@media (max-width: 480px) {
-  main {
-    margin: 0 2rem;
-    padding-top: 4rem;
-  }
-}
-
 
 /* add1css */
 
@@ -1436,14 +1441,6 @@ strong {
 @media (max-width: 768px) {
   .split2 {
     flex-direction: column;
-  }
-
-  main {
-    font-size: 14px;
-    line-height: 1.8;
-    letter-spacing: .5px;
-    text-align: justify;
-    padding-bottom: 3rem;
   }
 
   .kanan iframe {
