@@ -188,8 +188,17 @@ the website, in dark theme
 }
 
 .main {
-  overflow: hidden;
+  overflow: hidden;  
   /*For animation*/
+  margin: 0 2rem;
+  color: #333;
+  padding-top: 5rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+  font-size: 16px;
+  transition: .4s;
+  line-height: 1.8;
+  letter-spacing: .5px;
 }
 
 /*=============== HEADER ===============*/
@@ -1260,10 +1269,6 @@ the website, in dark theme
 
 /* side3css */
 
-main {
-  padding: 0;
-}
-
 .layout {
   display: flex;
   flex-direction: row;
@@ -1297,14 +1302,6 @@ h2 {
   margin: 1rem 0;
   font-size: 1.5rem;
   text-align: left;
-}
-
-main {
-  margin: 0 2rem;
-  color: #333;
-  padding-top: 5rem;
-  text-align: justify;
-  margin-bottom: 2rem;
 }
 
 .satu {
@@ -1433,13 +1430,6 @@ li {
 
 strong {
   font-weight: 600;
-}
-
-main {
-  font-size: 16px;
-  transition: .4s;
-  line-height: 1.8;
-  letter-spacing: .5px;
 }
 
 /* Untuk tablet dan layar kecil (misal max-width: 768px) */
