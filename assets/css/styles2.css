@@ -1350,6 +1350,8 @@ h2 {
 
 .satu .kiri img {
   object-fit: contain;
+  height: 200px;
+  width: 200px;
 }
 
 .split {
