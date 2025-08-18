@@ -88,6 +88,10 @@ body {
   /*For animation dark mode*/
 }
 
+.hs{
+  text-align: left;
+}
+
 main {
   overflow: hidden;  
   /*For animation*/
@@ -1558,4 +1562,8 @@ img.putih {
   justify-content: center;
   margin-top: 3rem;
   text-align: center;
+}
+
+a.blue{
+  color: blue;
 }
