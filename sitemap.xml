@@ -7,10 +7,17 @@
   <url>
     <loc>https://onewholesaleindo.com</loc>
     <priority>1.0</priority>
-    <lastmod>2025-08-06</lastmod>
+    <lastmod>2025-08-19</lastmod>
   </url>
 
- <!-- palm kernel oil -->
+<!-- palm kernel Shell -->
+ <url>
+  <loc>https://onewholesaleindo.com/wholesale/palm-kernel-shell</loc>
+  <lastmod>2025-08-19</lastmod>
+  <priority>0.8</priority>
+ </url>
+
+ <!-- palm kernel expeller -->
  <url>
   <loc>https://onewholesaleindo.com/wholesale/palm-kernel-expeller-cake.html</loc>
   <lastmod>2025-08-18</lastmod>
