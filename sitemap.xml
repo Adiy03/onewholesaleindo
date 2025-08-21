@@ -7,8 +7,15 @@
   <url>
     <loc>https://onewholesaleindo.com</loc>
     <priority>1.0</priority>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2025-08-21</lastmod>
   </url>
+
+<!-- palm coconut sugar -->
+ <url>
+  <loc>https://onewholesaleindo.com/wholesale/charcoal.html</loc>
+  <lastmod>2025-08-21</lastmod>
+  <priority>0.8</priority>
+ </url>
 
 
 <!-- palm coconut sugar -->
@@ -99,13 +106,6 @@
  <url>
   <loc>https://onewholesaleindo.com/sawdust-wood-pellets.html</loc>
   <lastmod>2025-07-13</lastmod>
-  <priority>0.8</priority>
- </url>
-
-<!-- charcoal briquettes -->
- <url>
-  <loc>https://onewholesaleindo.com/wood-charcoal-briquettes.html</loc>
-  <lastmod>2025-07-14</lastmod>
   <priority>0.8</priority>
  </url>
 
