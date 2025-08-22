@@ -7,8 +7,15 @@
   <url>
     <loc>https://onewholesaleindo.com</loc>
     <priority>1.0</priority>
-    <lastmod>2025-08-21</lastmod>
+    <lastmod>2025-08-22</lastmod>
   </url>
+
+<!-- desiccated coconuts -->
+ <url>
+  <loc>https://onewholesaleindo.com/wholesale/desiccated-coconut.html</loc>
+  <lastmod>2025-08-22</lastmod>
+  <priority>0.8</priority>
+ </url>  
 
 <!-- palm coconut sugar -->
  <url>
