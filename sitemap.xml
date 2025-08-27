@@ -7,8 +7,15 @@
   <url>
     <loc>https://onewholesaleindo.com</loc>
     <priority>1.0</priority>
-    <lastmod>2025-08-24</lastmod>
+    <lastmod>2025-08-27</lastmod>
   </url>
+
+<!-- activated carbon -->
+ <url>
+  <loc>https://onewholesaleindo.com/wholesale/activated-carbon.html</loc>
+  <lastmod>2025-08-27</lastmod>
+  <priority>0.8</priority>
+ </url>  
 
 <!-- coconut milk and powder -->
  <url>
@@ -71,13 +78,6 @@
  <url>
   <loc>https://onewholesaleindo.com/wholesale/agarwood-oud.html</loc>
   <lastmod>2025-08-13</lastmod>
-  <priority>0.8</priority>
- </url>
-
- <!-- activated carbon -->
- <url>
-  <loc>https://onewholesaleindo.com/wholesale/activated-carbon.html</loc>
-  <lastmod>2025-08-06</lastmod>
   <priority>0.8</priority>
  </url>
 

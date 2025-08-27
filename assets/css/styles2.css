@@ -1389,7 +1389,7 @@ h2 {
 
   .satu {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .layout .kanan {
@@ -1567,3 +1567,33 @@ img.putih {
 a.blue{
   color: blue;
 }
+
+.table-container {
+      width: 100%;
+      overflow-x: auto;
+      /* Supaya responsif di HP */
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 600px;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
