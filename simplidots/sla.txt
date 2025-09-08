@@ -68,3 +68,17 @@ SLA adalah dasar pengukuran kinerja.
 Distributor Tracking & SFA adalah alat untuk memastikan SLA terpenuhi.
 
 Dengan integrasi, perusahaan dapat menjaga kepuasan pelanggan dan mendorong pertumbuhan penjualan.
+
+
+Analisis Performa
+
+Impressions meningkat signifikan (+16,1%), artinya website tampil lebih sering di hasil pencarian Google.
+
+Clicks sedikit menurun (-1,5%), meski impressions naik → ini menunjukkan CTR turun.
+
+CTR turun dari 0,8% → 0,7%, kemungkinan karena volume tayangan tinggi tetapi persaingan ketat atau judul/meta kurang menarik.
+
+Average position membaik (16,7 → 16,4), menandakan ada perbaikan ranking rata-rata di SERP.
+
+Pada bulan Agustus terjadi update dari Google Search Console yang memengaruhi kestabilan data performa. Hal ini sudah diumumkan secara resmi oleh Google di akun LinkedIn mereka:
+👉 Google Search Status Dashboard Update

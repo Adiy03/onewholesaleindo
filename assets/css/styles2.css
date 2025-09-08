@@ -88,19 +88,20 @@ body {
   /*For animation dark mode*/
 }
 
-.hs{
+
+.hs {
   text-align: left;
 }
 
 main {
-  overflow: hidden;  
+  overflow: hidden;
   /*For animation*/
   margin: 0 2rem;
   color: #333;
   padding-top: 5rem;
   text-align: justify;
   margin-bottom: 2rem;
-  font-size: 14px;
+  font-size: 16px;
   transition: .4s;
   line-height: 1.8;
   letter-spacing: .5px;
@@ -1303,6 +1304,7 @@ the website, in dark theme
 .layout .kiri {
   flex: 3;
   padding-right: 1rem;
+  padding-left: 5rem;
 }
 
 .layout .kanan {
@@ -1347,9 +1349,9 @@ h2 {
 
 .satu .kiri {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  padding-right: 1rem;
+  padding-left: -5rem;
 }
 
 .satu .kiri img {
@@ -1372,7 +1374,17 @@ h2 {
 /* Responsif untuk tablet (lebar <= 1024px) */
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1040px) {
+
+  .satu .kiri {
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  .layout .kiri {
+    padding-left: 0;
+  }
+
   .layout {
     display: flex;
     flex-direction: column;
@@ -1564,36 +1576,38 @@ img.putih {
   text-align: center;
 }
 
-a.blue{
+a.blue {
   color: blue;
 }
 
 .table-container {
-      width: 100%;
-      overflow-x: auto;
-      /* Supaya responsif di HP */
-      margin-top: 15px;
-      margin-bottom: 30px;
-    }
+  width: 100%;
+  overflow-x: auto;
+  /* Supaya responsif di HP */
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      min-width: 600px;
-    }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
 
-    th,
-    td {
-      border: 1px solid #ddd;
-      padding: 10px;
-      text-align: left;
-      font-size: 14px;
-    }
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
 
-    th {
-      background-color: #f4f4f4;
-    }
+th {
+  background-color: #f4f4f4;
+}
 
-    tr:nth-child(even) {
-      background-color: #fafafa;
-    }
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+
