@@ -1335,7 +1335,7 @@ h2 {
 
 .satu {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .ulStyle {
