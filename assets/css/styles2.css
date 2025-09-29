@@ -1425,7 +1425,8 @@ h2 {
 h3,
 h4 {
   margin-bottom: .35rem;
-  font-weight: 500;
+  font-weight: 410;
+  font-size: 1.1rem;
 }
 
 .ulStyle {
