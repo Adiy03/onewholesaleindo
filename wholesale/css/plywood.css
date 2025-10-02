@@ -1,0 +1,62 @@
+.responsive-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      font-size: 14px;
+      table-layout: fixed;
+    }
+
+    .responsive-table thead th {
+      text-align: left;
+      padding: 12px 16px;
+      background: #f6f7f9;
+      border-bottom: 1px solid #e3e6ea;
+      font-weight: 600;
+    }
+
+    .responsive-table tbody td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+      word-wrap: break-word;
+    }
+
+    /* Columns width hints */
+    .col-use { width: 30%; }
+    .col-type { width: 40%; }
+    .col-size { width: 30%; }
+
+    /* Horizontal scroll fallback for very small containers */
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    /* Responsive card-style rows on small screens */
+    @media (max-width: 720px) {
+      .responsive-table thead { display: none; }
+
+      .responsive-table, .responsive-table tbody, .responsive-table tr, .responsive-table td {
+        display: block;
+        width: 100%;
+      }
+
+      .responsive-table tr { margin-bottom: 12px; border: 1px solid #eee; border-radius: 8px; overflow: hidden; }
+
+      .responsive-table tbody td {
+        padding: 10px 12px;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .responsive-table tbody td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        margin-right: 12px;
+        flex: 0 0 auto;
+      }
+
+      .responsive-table tbody td > span { flex: 1 1 auto; text-align: right; }
+    }

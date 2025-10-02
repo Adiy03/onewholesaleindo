@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Plywood Table</title>
+  <style>
+    /* Basic table styling */
+    .responsive-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      font-size: 14px;
+      table-layout: fixed;
+    }
+
+    .responsive-table thead th {
+      text-align: left;
+      padding: 12px 16px;
+      background: #f6f7f9;
+      border-bottom: 1px solid #e3e6ea;
+      font-weight: 600;
+    }
+
+    .responsive-table tbody td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+      word-wrap: break-word;
+    }
+
+    /* Columns width hints */
+    .col-use { width: 30%; }
+    .col-type { width: 40%; }
+    .col-size { width: 30%; }
+
+    /* Horizontal scroll fallback for very small containers */
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    /* Responsive card-style rows on small screens */
+    @media (max-width: 720px) {
+      .responsive-table thead { display: none; }
+
+      .responsive-table, .responsive-table tbody, .responsive-table tr, .responsive-table td {
+        display: block;
+        width: 100%;
+      }
+
+      .responsive-table tr { margin-bottom: 12px; border: 1px solid #eee; border-radius: 8px; overflow: hidden; }
+
+      .responsive-table tbody td {
+        padding: 10px 12px;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .responsive-table tbody td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        margin-right: 12px;
+        flex: 0 0 auto;
+      }
+
+      .responsive-table tbody td > span { flex: 1 1 auto; text-align: right; }
+    }
+
+    /* Simple accessible focus style */
+    .responsive-table tr:focus-within { outline: 2px solid #d0e6ff; }
+  </style>
+</head>
+<body>
+  <div class="table-wrap">
+    <table class="responsive-table" aria-label="Rekomendasi Plywood untuk Berbagai Kegunaan">
+      <thead>
+        <tr>
+          <th class="col-use">Penggunaan</th>
+          <th class="col-type">Jenis Plywood yang Cocok</th>
+          <th class="col-size">Ukuran Rekomendasi (Tebal × Lebar × Panjang)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Penggunaan">Flooring & Subfloor</td>
+          <td data-label="Jenis">Hardwood Plywood / Marine Plywood</td>
+          <td data-label="Ukuran"><span>18–25 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Bed & Furniture</td>
+          <td data-label="Jenis">Hardwood Plywood / Veneer Plywood</td>
+          <td data-label="Ukuran"><span>12–18 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Roof & Roofing</td>
+          <td data-label="Jenis">Exterior Plywood / Marine Plywood</td>
+          <td data-label="Ukuran"><span>12–18 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Walls & Ceilings</td>
+          <td data-label="Jenis">Softwood Plywood / Decorative Plywood</td>
+          <td data-label="Ukuran"><span>6–12 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Doors</td>
+          <td data-label="Jenis">MR Plywood / BWR Plywood</td>
+          <td data-label="Ukuran"><span>18–25 mm × 915 × 2135 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Kitchen Cabinets</td>
+          <td data-label="Jenis">BWR Plywood / MR Plywood</td>
+          <td data-label="Ukuran"><span>12–18 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Bathroom Cabinets</td>
+          <td data-label="Jenis">BWR Plywood / Marine Plywood</td>
+          <td data-label="Ukuran"><span>12–18 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Exterior Applications</td>
+          <td data-label="Jenis">Marine Plywood / Exterior Grade</td>
+          <td data-label="Ukuran"><span>12–25 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Construction (Formwork, Scaffolding)</td>
+          <td data-label="Jenis">Commercial Plywood / Structural Plywood</td>
+          <td data-label="Ukuran"><span>12–18 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Shelves (Shevels)</td>
+          <td data-label="Jenis">Hardwood / Decorative Plywood</td>
+          <td data-label="Ukuran"><span>15–18 mm × 1220 × 2440 mm</span></td>
+        </tr>
+
+        <tr>
+          <td data-label="Penggunaan">Table Tops</td>
+          <td data-label="Jenis">Hardwood / Veneer Plywood</td>
+          <td data-label="Ukuran"><span>18–25 mm × 1220 × 2440 mm</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
