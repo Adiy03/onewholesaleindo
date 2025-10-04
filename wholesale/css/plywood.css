@@ -47,7 +47,7 @@
         padding: 10px 12px;
         border: none;
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
         align-items: center;
       }
 
@@ -58,5 +58,5 @@
         flex: 0 0 auto;
       }
 
-      .responsive-table tbody td > span { flex: 1 1 auto; text-align: right; }
+      .responsive-table tbody td > span { flex: 1 1 auto; text-align: left; }
     }
