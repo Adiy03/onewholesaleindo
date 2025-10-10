@@ -1,6 +1,8 @@
 User-agent: *
-
 Allow: /
+
+# Jangan izinkan halaman produk utama diindeks
+Disallow: /products.html
 
 # Sitemap untuk Google dan mesin pencari lainnya
 Sitemap: https://onewholesaleindo.com/sitemap.xml
