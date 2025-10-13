@@ -55,10 +55,6 @@ main {
     letter-spacing: .5px;
     text-align: justify;
   }
-
-  .kanan iframe{
-    height: 50vh;
-  }
 }
 
 /* Untuk mobile (misal max-width: 480px) */
