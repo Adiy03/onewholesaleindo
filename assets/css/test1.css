@@ -106,18 +106,55 @@
 
 .contacts{
   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
-.cwa{
+.cwa {
   display: flex;
-  padding:.6rem 1rem;
+  padding: 0.6rem 1rem;
   background-color: hsl(var(--hue), 24%, 32%);
   color: #fff;
   border-radius: 32px;
-  margin: .5rem;
+  margin: 0.5rem;
   align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-wrap: wrap;
 }
 
-.cwa i{
+.cwa i {
   margin-right: 10px;
+  font-size: 1.2em;
+}
+
+/* Tablet (max-width: 992px) */
+@media (max-width: 992px) {
+  .cwa {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 28px;
+  }
+
+  .cwa i {
+    margin-right: 8px;
+  }
+}
+
+/* Smartphone (max-width: 600px) */
+@media (max-width: 600px) {
+  .cwa {
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 20px;
+  }
+
+  .cwa i {
+    margin: 0 0 6px 0;
+    font-size: 1.3em;
+  }
 }

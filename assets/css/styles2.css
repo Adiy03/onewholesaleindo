@@ -1372,7 +1372,17 @@ h2 {
   flex: 1;
 }
 
+.space{
+  margin-bottom: .8rem;
+}
+
 /* Responsif untuk tablet (lebar <= 1024px) */
+
+@media (min-width: 1040px) {
+  .space{
+    display: none;
+  }
+}
 
 
 @media (max-width: 1040px) {
@@ -1426,7 +1436,9 @@ h3,
 h4 {
   margin-bottom: .35rem;
   font-weight: 410;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 1rem;
 }
 
 .ulStyle {
