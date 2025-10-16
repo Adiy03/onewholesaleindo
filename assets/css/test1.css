@@ -145,6 +145,10 @@
 
 /* Smartphone (max-width: 600px) */
 @media (max-width: 600px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
   .cwa {
     flex-direction: column;
     text-align: center;
