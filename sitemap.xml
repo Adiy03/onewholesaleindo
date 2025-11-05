@@ -3,12 +3,19 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Homepage -->
-  <url>
-    <loc>https://onewholesaleindo.com</loc>
-    <priority>1.0</priority>
-    <lastmod>2025-10-13</lastmod>
-  </url>
+<!-- Homepage -->
+<url>
+  <loc>https://onewholesaleindo.com</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+</url>
+
+<!-- mangoesteen -->
+ <url>
+  <loc>https://onewholesaleindo.com/wholesale/mangosteen.html</loc>
+  <lastmod>2025-11-05</lastmod>
+  <priority>0.8</priority>
+ </url>  
 
 <!-- mangoes -->
  <url>
