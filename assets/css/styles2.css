@@ -1444,7 +1444,7 @@ h3,
 h4 {
   margin-bottom: .35rem;
   font-weight: 410;
-  /* font-size: 1rem; */
+  font-size: 1rem;
   text-align: left;
   margin-top: 1rem;
 }
