@@ -28,58 +28,83 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Activated Carbon for Sale – Bulk & Wholesale",
-  "description": "Wholesale activated carbon made from coconut shell, coal, and wood. Suitable for water treatment, air filtration, food processing, pharmaceutical, and industrial applications.",
-  "image": [
-    "https://onewholesaleindo.com/img/activated-carbon.webp"
-  ],
-  "brand": {
-    "@type": "Brand",
-    "name": "One Wholesale Indo"
-  },
-  "manufacturer": {
-    "@type": "Organization",
-    "name": "One Wholesale Indo",
-    "url": "https://onewholesaleindo.com/"
-  },
-  "category": "Activated Carbon",
-  "material": [
-    "Coconut Shell",
-    "Coal",
-    "Wood"
-  ],
-  "additionalProperty": [
+  "@graph": [
     {
-      "@type": "PropertyValue",
-      "name": "HS Code",
-      "value": "380210"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Forms Available",
-      "value": "Granular (GAC), Powdered (PAC), Extruded (EAC)"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Applications",
-      "value": "Water Treatment, Air Filtration, Food & Beverage, Pharmaceutical, Industrial Processing"
-    }
-  ],
-  "offers": {
-    "@type": "Offer",
-    "url": "https://onewholesaleindo.com/wholesale/activated-carbon.html",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock",
-    "seller": {
       "@type": "Organization",
-      "name": "One Wholesale Indo"
+      "@id": "https://onewholesaleindo.com/#organization",
+      "name": "One Wholesale Indo",
+      "url": "https://onewholesaleindo.com/",
+      "logo": "https://onewholesaleindo.com/img/logo.png",
+      "additionalType": "https://schema.org/WholesaleStore",
+      "knowsAbout": [
+        "Indonesia Wholesale Supplier",
+        "Wholesale Trade",
+        "Bulk Supply",
+        "Export Trading from Indonesia"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "telephone": "+62-851-5503-2886",
+        "email": "hello@onewholesaleindo.com",
+        "availableLanguage": ["English", "Indonesian"]
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://onewholesaleindo.com/wholesale/activated-carbon.html#product",
+      "name": "Activated Carbon for Sale",
+      "description": "Wholesale activated carbon made from coconut shell, coal, and wood. Suitable for water treatment, air filtration, food processing, pharmaceutical, and industrial applications.",
+      "image": [
+        "https://onewholesaleindo.com/img/activated-carbon.webp"
+      ],
+      "brand": {
+        "@type": "Brand",
+        "name": "One Wholesale Indo"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "@id": "https://onewholesaleindo.com/#organization"
+      },
+      "category": "Activated Carbon",
+      "material": [
+        "Coconut Shell",
+        "Coal",
+        "Wood"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "HS Code",
+          "value": "380210"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Forms Available",
+          "value": "Granular (GAC), Powdered (PAC), Extruded (EAC)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Applications",
+          "value": "Water Treatment, Air Filtration, Food & Beverage, Pharmaceutical, Industrial Processing"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://onewholesaleindo.com/wholesale/activated-carbon.html",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "@id": "https://onewholesaleindo.com/#organization"
+        }
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Importers, Wholesalers, Distributors, Manufacturers"
+      }
     }
-  },
-  "audience": {
-    "@type": "BusinessAudience",
-    "audienceType": "Importers, Wholesalers, Distributors, Manufacturers"
-  }
+  ]
 }
 </script>
 
