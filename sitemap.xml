@@ -10,6 +10,12 @@
   <changefreq>daily</changefreq>
 </url>
 
+<url>
+  <loc>https://onewholesaleindo.com/wholesale/tamarind.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+ </url>
+
 <!-- rbd palm oil -->
  <url>
   <loc>https://onewholesaleindo.com/wholesale/palm-kernel-oil.html</loc>
